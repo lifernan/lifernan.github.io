@@ -1,15 +1,5 @@
 <!DOCTYPE HTML>
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!-- Hi, Jon Here. Please DELETE the two <script> tags below if you use this HTML, otherwise my analytics will track your page -->
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-7580334-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-7580334-2');
-  </script>
 
   <title>Bernadette Bucher</title>
 
@@ -33,9 +23,9 @@
                 I am a PhD Student in the <a href="https://www.grasp.upenn.edu/">GRASP lab</a> at <a href="https://home.www.upenn.edu/">University of Pennsylvania</a> advised by
                 <a href="http://www.cis.upenn.edu/~kostas/">Dr. Kostas Daniilidis</a>.
 </p><p>
-                My research interests broadly lie in developing meaningful representations of sensory data in
-                robotic systems for intelligent autonomous decision making. My current work
-                focuses on neuromorphic approaches to perceptual decision making.
+                My interests focus on increasing sample efficiency in learning methods using visual sensory data
+                to make autonomous decisions. Currently, I am designing intrinsic rewards for exploration in reinforcement
+                learning methods in order to increase sample efficiency via adaptive sampling.
 </p><p>
                 Prior to starting my PhD, I was a Senior Software Engineer at <a href="https://www.lockheedmartin.com/en-us/index.html">Lockheed Martin Corporation</a>
                 where I worked from 2014 to 2019. I received an M.A. in Mathematics, M.A. in Economics, and
@@ -56,6 +46,45 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="images/domain.png" alt="fast-texture" width="160" height="100">
+                </td>
+                <td width="75%" valign="middle">
+                  <a href="https://arxiv.org/abs/2003.06082">
+                    <papertitle>Adversarial Curiosity</papertitle>
+                  </a>
+                  <br>
+                  <strong>Bernadette Bucher*</strong>, <a href="https://sites.google.com/view/karlschmeckpeper">Karl Schmeckpeper*</a>, <a href="https://nikolaimatni.github.io/">Nikolai Matni</a>, <a href="https://www.cis.upenn.edu/~kostas/">Kostas Daniilidis</a>
+                  <br>
+                  <em>arXiv Preprint</em>, 2020
+                  <br>
+                  <a href="https://arxiv.org/abs/2003.06082">arXiv</a> &nbsp/&nbsp <a href="https://sites.google.com/view/action-for-better-prediction">project page</a> &nbsp/&nbsp <a href="data/Adversarial2020.bib">bibtex</a>
+                  <p>We present a model-based adversarial curiosity method which addresses the scalability issues of prior model-based curiosity approaches through the use of a discriminator network.
+                      Our method improves performance in multiple prediction-planning pipelines over baseline exploration strategies.
+                  </p>
+                </td>
+              </tr>
+            <tr>
+              <tr>
+                <td style="padding:20px;width:25%;vertical-align:middle">
+                  <img src="images/domain.png" alt="fast-texture" width="160" height="100">
+                </td>
+                <td width="75%" valign="middle">
+                  <a href="https://rss2020vlrrm.github.io/papers/10_CameraReadySubmission_ActionForBetterPrediction_CameraReady.pdf">
+                    <papertitle>Action for Better Prediction</papertitle>
+                  </a>
+                  <br>
+                  <strong>Bernadette Bucher*</strong>, <a href="https://sites.google.com/view/karlschmeckpeper">Karl Schmeckpeper*</a>, <a href="https://nikolaimatni.github.io/">Nikolai Matni</a>, <a href="https://www.cis.upenn.edu/~kostas/">Kostas Daniilidis</a>
+                  <br>
+                  <em>RSS Workshop on Visual Learning and Reasoning for Robotic Manipulation</em>, 2020
+                  <br>
+                  <a href="https://sites.google.com/view/action-for-better-prediction">project page</a> &nbsp/&nbsp <a href="data/Action2020.bib">bibtex</a>
+                  <p>We show that a targeted sampling approach based on minimizing our novel curiosity-driven objective, leads to sample efficient prediction performance improvements in a domain transfer problem.
+                  </p>
+                </td>
+              </tr>
+            <tr>
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <img src="images/multiagents.png" alt="fast-texture" width="160" height="120">
               </td>
@@ -74,25 +103,6 @@
               </td>
             </tr>
           <tr>
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <img src="images/domain.png" alt="fast-texture" width="160" height="100">
-              </td>
-              <td width="75%" valign="middle">
-                <a href="https://arxiv.org/pdf/2003.06082.pdf">
-                  <papertitle>Action for Better Prediction</papertitle>
-                </a>
-                <br>
-                <strong>Bernadette Bucher*</strong>, <a href="https://sites.google.com/view/karlschmeckpeper">Karl Schmeckpeper*</a>, <a href="https://nikolaimatni.github.io/">Nikolai Matni</a>, <a href="https://www.cis.upenn.edu/~kostas/">Kostas Daniilidis</a>
-                <br>
-                <em>arXiv Preprint</em>, 2020
-                <br>
-                <a href="https://arxiv.org/abs/2003.06082">arXiv</a> &nbsp/&nbsp <a href="https://sites.google.com/view/action-for-better-prediction">project page</a> &nbsp/&nbsp <a href="data/Action2020.bib">bibtex</a>
-                <p>We show that a targeted sampling approach based on minimizing our novel curiosity-driven objective, leads to sample efficient prediction performance improvements in a domain transfer problem.
-                </p>
-              </td>
-            </tr>
-          <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/robonet.gif" alt="fast-texture" width="160" height="160">
             </td>
@@ -104,6 +114,8 @@
               <a href="https://sudeepdasari.github.io/">Sudeep Dasari</a>, <a href="https://febert.github.io/">Frederik Ebert</a>, <a href="https://s-tian.github.io/">Stephen Tian</a>, <a href="https://cs.stanford.edu/~surajn/">Suraj Nair</a>, <strong>Bernadette Bucher</strong>, <a href="https://sites.google.com/view/karlschmeckpeper">Karl Schmeckpeper</a>, <a href="https://www.seas.upenn.edu/~sidsingh/">Siddharth Singh</a>, <a href="https://people.eecs.berkeley.edu/~svlevine/">Sergey Levine</a>, <a href="https://ai.stanford.edu/~cbfinn/">Chelsea Finn</a>
               <br>
               <em>Conference on Robot Learning (CoRL)</em>, 2019
+              <br>
+              <em>NeurIPS Workshop on Deep Reinforcement Learning</em>, 2019
               <br>
               <a href="https://arxiv.org/abs/1910.11215">arXiv</a> &nbsp/&nbsp <a href="https://www.robonet.wiki/">project page</a> &nbsp/&nbsp <a href="https://github.com/SudeepDasari/RoboNet">code</a> &nbsp/&nbsp <a href="data/CORL2019.bib">bibtex</a>
               <p>We developed a dataset of over 15 million video frames of 7 different robots at 113 different camera viewpoints interacting with objects. We use our new dataset to test the generalization capability of state-of-the-art video prediction algorithms.

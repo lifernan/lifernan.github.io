@@ -1,1 +1,10 @@
-Bernadette is a Computer Science PhD Student in the GRASP lab at University of Pennsylvania working with Dr. Kostas Daniilidis. Prior to joining GRASP, Bernadette held various positions at Lockheed Martin Corporation from 2014 to 2019, most recently working as a Senior Software Engineer. During that time, she completed graduate courses in computer science from Georgia Institute of Technology. She received her M.A. in Mathematics, M.A. in Economics, and B.S. in Mathematics and Economics from the University of Alabama in 2014. Her research interests broadly focus on the development of meaningful representations of sensory data in robotic systems for intelligent autonomous decision making. In particular, her current work focuses on neuromorphic approaches to deep reinforcement learning.
+Bernadette is a Computer Science PhD Student in the GRASP lab at University of Pennsylvania
+working with Dr. Kostas Daniilidis. Prior to joining GRASP, Bernadette held various positions
+at Lockheed Martin Corporation from 2014 to 2019, most recently working as a Senior Software
+Engineer. During that time, she completed graduate courses in computer science from Georgia
+Institute of Technology. She received her M.A. in Mathematics, M.A. in Economics, and B.S.
+in Mathematics and Economics from the University of Alabama in 2014. Her research interests
+focus on increasing sample efficiency in learning methods using visual sensory data
+to make autonomous decisions. In particular, her current work focuses on designing intrinsic
+rewards for exploration in reinforcement learning methods in order to increase sample efficiency
+via adaptive sampling.
